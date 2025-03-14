@@ -21,9 +21,9 @@ public class menuoptions : MonoBehaviour
     public void btnclick()
     {
         print(EventSystem.current.currentSelectedGameObject.name);
-        GameManager.Instance.levelonoff(true);
-        GameManager.Instance.setbgsprites(MenuNo);
-        GameManager.Instance.setmenuno(MenuNo);
+        GameManager.instance.levelonoff(true);
+        GameManager.instance.setbgsprites(MenuNo);
+        GameManager.instance.setmenuno(MenuNo);
     }
 
 }
